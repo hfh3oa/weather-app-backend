@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Main",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "/workspaces/weather-app-backend/src/main/main.go",
+            "env": {
+                "WD_HOME": "/workspaces/weather-app-backend/wd"
+            },
+        }
+    ]
+}
